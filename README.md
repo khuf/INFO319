@@ -2,7 +2,7 @@
 
 ## Run kafka
 
-In kafka-docker, run: 
+In kafka-docker directory, run: 
 
 `docker-compose up -d`
 
