@@ -10,17 +10,17 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 class CrisisMap extends Component {
   static defaultProps = {
     center: {
-      lat: 59.95,
-      lng: 30.33
+      lat: 29.53,
+      lng: -95.29
     },
-    zoom: 11
+    zoom: 5
   };
 
   render() {
     return (
       <NavigationDrawer>
         <Grid container spacing={3}>
-          <Box width="100%">
+          <Box width="80%">
             <div style={{ height: "100vh", width: "100%" }}>
               <GoogleMapReact
                 bootstrapURLKeys={{
@@ -31,8 +31,8 @@ class CrisisMap extends Component {
               >
                 {console.log(process.env.REACT_APP_GOOGLE_MAPS_API_KEY)}
                 <AnyReactComponent
-                  lat={59.955413}
-                  lng={30.337844}
+                  lat={29.533220}
+                  lng={-95.294176}
                   text="My Marker"
                 />
               </GoogleMapReact>

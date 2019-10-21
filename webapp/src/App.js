@@ -22,6 +22,6 @@ function App() {
       </div>
     </MuiThemeProvider>
   );
-}
+} 
 
 export default App;
