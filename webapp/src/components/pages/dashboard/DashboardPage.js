@@ -44,7 +44,7 @@ class Dashboard extends Component {
                 <TwitterHashtagButton
                   tag={'HurricaneHarvey'}
                 />
-                <img src="https://previews.123rf.com/images/radiantskies/radiantskies1210/radiantskies121000282/15997956-abstract-word-cloud-for-emergency-management-with-related-tags-and-terms.jpg" alt="Dis" width="600" height="700">
+                <img src="https://previews.123rf.com/images/radiantskies/radiantskies1210/radiantskies121000282/15997956-abstract-word-cloud-for-emergency-management-with-related-tags-and-terms.jpg" alt="Dis" width="650" height="730">
                 </img>
               </Paper>
             </Box>
