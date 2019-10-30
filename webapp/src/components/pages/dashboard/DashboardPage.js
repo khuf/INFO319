@@ -40,24 +40,28 @@ class Dashboard extends Component {
           <Grid container item sm={6} xs={12}>
             <Box width="100%">
               <Paper className={classes.paper}>
-                <Typography variant="h6">Linke til en bestemt tweet foreløbig</Typography>
+                <Typography variant="h6">World cloud(Venstre side)</Typography>
                 <TwitterHashtagButton
                   tag={'HurricaneHarvey'}
                 />
-                <TwitterTweetEmbed
-                  tweetId={'1187411731015962626'}
-                />
+                <img src="https://previews.123rf.com/images/radiantskies/radiantskies1210/radiantskies121000282/15997956-abstract-word-cloud-for-emergency-management-with-related-tags-and-terms.jpg" alt="Dis" width="600" height="700">
+                </img>
               </Paper>
             </Box>
           </Grid>
           <Grid container item sm={6} xs={12}>
             <Box width="100%">
               <Paper className={classes.paper}>
-                <Typography variant="h6">Tweets fra profil, tenker etter # med data?</Typography>
+                <Typography variant="h6">Tweets fra 2x profiler. En gruppe og en fra 911?</Typography>
                 <TwitterTimelineEmbed
                   sourceType="profile"
                   screenName="HarveyRelief"
-                  options={{height: 675}}
+                  options={{height: 375}}
+                />
+                <TwitterTimelineEmbed
+                  sourceType="profile"
+                  screenName="WaterResearch"
+                  options={{height: 375}}
                 />
               </Paper>
             </Box>
