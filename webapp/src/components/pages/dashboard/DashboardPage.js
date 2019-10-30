@@ -7,6 +7,8 @@ import Box from "@material-ui/core/Box";
 import { Grid } from "@material-ui/core/";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
 
 const styles = theme => ({
   content: {
@@ -38,14 +40,25 @@ class Dashboard extends Component {
           <Grid container item sm={6} xs={12}>
             <Box width="100%">
               <Paper className={classes.paper}>
-                <Typography variant="h6">Here goes something cool</Typography>
+                <Typography variant="h6">Linke til en bestemt tweet foreløbig</Typography>
+                <TwitterHashtagButton
+                  tag={'HurricaneHarvey'}
+                />
+                <TwitterTweetEmbed
+                  tweetId={'1187411731015962626'}
+                />
               </Paper>
             </Box>
           </Grid>
           <Grid container item sm={6} xs={12}>
             <Box width="100%">
               <Paper className={classes.paper}>
-                <Typography variant="h6">Trending hashtags</Typography>
+                <Typography variant="h6">Tweets fra profil, tenker etter # med data?</Typography>
+                <TwitterTimelineEmbed
+                  sourceType="profile"
+                  screenName="HarveyRelief"
+                  options={{height: 675}}
+                />
               </Paper>
             </Box>
           </Grid>

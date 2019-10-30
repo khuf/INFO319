@@ -20,7 +20,7 @@ class CrisisMap extends Component {
     return (
       <NavigationDrawer>
         <Grid container spacing={3}>
-          <Box width="80%">
+          <Box width="100%">
             <div style={{ height: "100vh", width: "100%" }}>
               <GoogleMapReact
                 bootstrapURLKeys={{
