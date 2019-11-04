@@ -4,6 +4,7 @@ import NavigationDrawer from "../../../components/NavigationDrawer";
 import Paper from "@material-ui/core/Paper";
 import Box from "@material-ui/core/Box";
 import openSocket from 'socket.io-client';
+import jsonParser from "socket.io-json-parser";
 
 import { Grid } from "@material-ui/core/";
 import { withStyles } from "@material-ui/core/styles";
@@ -29,7 +30,8 @@ class Dashboard extends Component {
   constructor(props) {
     super(props);
     //this.socket = openSocket('http://localhost:5000/');
-    this.socket = openSocket('67.205.161.104:9999/');
+    //67.205.161.104:9999/
+    this.socket = openSocket('/', {parser: jsonParser});
     this.state = {};
   }
 
@@ -46,8 +48,17 @@ this.socket.on('connect', function(msg) {
   })
 
   this.socket.on('tweet', function(msg) {
-		console.log('Received tweet');
-    console.log(msg)
+    console.log('Received tweet');
+    let json = JSON.parse(msg)
+    console.log(json["created_at"])
+    //console.log(msg)
+  });
+
+  this.socket.on('hei', function(msg) {
+    console.log('Received tweet');
+    let json = JSON.parse(msg)
+    console.log(json.created_at)
+    //console.log(msg)
   });
   
   }
