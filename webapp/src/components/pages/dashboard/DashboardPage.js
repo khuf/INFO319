@@ -3,6 +3,7 @@ import { withRouter } from "react-router-dom";
 import NavigationDrawer from "../../../components/NavigationDrawer";
 import Paper from "@material-ui/core/Paper";
 import Box from "@material-ui/core/Box";
+import openSocket from 'socket.io-client';
 
 import { Grid } from "@material-ui/core/";
 import { withStyles } from "@material-ui/core/styles";
@@ -27,8 +28,32 @@ class Dashboard extends Component {
 
   constructor(props) {
     super(props);
-
+    //this.socket = openSocket('http://localhost:5000/');
+    this.socket = openSocket('67.205.161.104:9999/');
     this.state = {};
+  }
+
+  componentDidMount() {
+  
+this.socket.on('connect', function(msg) {
+		console.log('Received reply');
+    console.log(msg)
+  });
+
+  this.socket.on('connection', function(msg) {
+    console.log("Received reply");
+    console.log(msg)
+  })
+
+  this.socket.on('tweet', function(msg) {
+		console.log('Received tweet');
+    console.log(msg)
+  });
+  
+  }
+
+  componentWillUnmount() {
+    this.socket.disconnect()
   }
 
   render() {
