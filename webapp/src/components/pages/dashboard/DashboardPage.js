@@ -65,8 +65,14 @@ class Dashboard extends Component {
     });
 
     this.socket.on("trigrams", this.handleTrigrams);
+
+    this.socket.on("sentiments", this.handleSentiments);
   }
 
+  handleSentiments = msg => {
+    let val = JSON.parse(msg.value);
+    console.log(val);
+  };
   /**
    * Recapture context of "this" so that we can look for state.
    * A threshold minimum threshold of 2 is set for bigrams to
