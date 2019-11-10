@@ -14,6 +14,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import DashboardIcon from "@material-ui/icons/DashboardOutlined";
+import SentimentSatisfiedIcon from "@material-ui/icons/SentimentSatisfied";
 import RoomIcon from "@material-ui/icons/RoomOutlined";
 import InfoIcon from "@material-ui/icons/InfoOutlined";
 import Typography from "@material-ui/core/Typography";
@@ -55,6 +56,11 @@ const styles = theme => ({
 
 const menu = [
   { menuItem: "Dashboard", link: "/dashboard", icon: <DashboardIcon /> },
+  {
+    menuItem: "Sentiment Analysis",
+    link: "/sentiments",
+    icon: <SentimentSatisfiedIcon />
+  },
   { menuItem: "Map", link: "/map", icon: <RoomIcon /> },
   { menuItem: "About", link: "/about", icon: <InfoIcon /> }
 ];

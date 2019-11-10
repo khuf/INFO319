@@ -50,13 +50,6 @@ class Dashboard extends Component {
   constructor(props) {
     super(props);
     this.socket = openSocket("/", { reconnection: false, forceNew: true });
-    /*this.state = {
-      topic: {
-        trigrams: {
-          batchId: -1,
-          messages: []
-        }
-    };*/
   }
 
   componentDidMount() {
@@ -71,6 +64,7 @@ class Dashboard extends Component {
 
   handleSentiments = msg => {
     let val = JSON.parse(msg.value);
+    console.log(msg.key);
     console.log(val);
   };
   /**
