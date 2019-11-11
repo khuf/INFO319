@@ -29,7 +29,153 @@ class SentimentPage extends Component {
         batchId: -1,
         window: null,
         loader: true,
-        messages: []
+        messages: [
+          {
+            "text": "Se mantiene alerta por posible paso de tormenta tropical #Harvey @MagdalenaDCC @GestionRiesgoSM @CruzRojaMag @UNGRD @EKALVARADO18 @jgesquea https://t.co/J0XwFrCxgf",
+            "result": [
+              "negative"
+            ],
+            "metadata": [
+              {
+                "confidence": "1.0"
+              }
+            ],
+            "combinedResult": [
+              {
+                "0": "negative",
+                "1": {
+                  "confidence": "1.0"
+                }
+              }
+            ]
+          },
+          {
+            "text": "Current view of #Harvey as it propagates into the central Caribbean. Also, check out that large disturbance north of Cuba! https://t.co/LM5qCAZF6T",
+            "result": [
+              "positive",
+              "positive",
+              "na"
+            ],
+            "metadata": [
+              {
+                "confidence": "0.5335"
+              },
+              {
+                "confidence": "0.4654"
+              },
+              {
+                "confidence": "0.0"
+              }
+            ],
+            "combinedResult": [
+              {
+                "0": "positive",
+                "1": {
+                  "confidence": "0.5335"
+                }
+              },
+              {
+                "0": "positive",
+                "1": {
+                  "confidence": "0.4654"
+                }
+              },
+              {
+                "0": "na",
+                "1": {
+                  "confidence": "0.0"
+                }
+              }
+            ]
+          },
+          {
+            "text": "Hier soir le ciel inspirait certains...  ⚡️ #Martinique #Harvey\n\n📷 IG : okazoumwenla https://t.co/sCXEf0Tmlu",
+            "result": [
+              "negative",
+              "negative",
+              "negative",
+              "negative"
+            ],
+            "metadata": [
+              {
+                "confidence": "0.5164"
+              },
+              {
+                "confidence": "0.5140"
+              },
+              {
+                "confidence": "0.5140"
+              },
+              {
+                "confidence": "0.8426"
+              }
+            ],
+            "combinedResult": [
+              {
+                "0": "negative",
+                "1": {
+                  "confidence": "0.5164"
+                }
+              },
+              {
+                "0": "negative",
+                "1": {
+                  "confidence": "0.5140"
+                }
+              },
+              {
+                "0": "negative",
+                "1": {
+                  "confidence": "0.5140"
+                }
+              },
+              {
+                "0": "negative",
+                "1": {
+                  "confidence": "0.8426"
+                }
+              }
+            ]
+          },
+          {
+            "text": "RT @galindojorgemij: #Harvey \n#ProteccionCivil : Se mantiene la prohibición de zarpe para embarcaciones menores en los estados: Sucre, Anzo…",
+            "result": [
+              "negative"
+            ],
+            "metadata": [
+              {
+                "confidence": "0.6880"
+              }
+            ],
+            "combinedResult": [
+              {
+                "0": "negative",
+                "1": {
+                  "confidence": "0.6880"
+                }
+              }
+            ]
+          },
+          {
+            "text": "RT @YvanDelPsuv: Gobierno Bolivariano activa a más de 7.750 funcionarios ante tormenta #Harvey que pasará por las costas venezolanas #18Ago…",
+            "result": [
+              "negative"
+            ],
+            "metadata": [
+              {
+                "confidence": "0.5363"
+              }
+            ],
+            "combinedResult": [
+              {
+                "0": "negative",
+                "1": {
+                  "confidence": "0.5363"
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   };
