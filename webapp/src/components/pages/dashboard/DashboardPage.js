@@ -67,7 +67,8 @@ class Dashboard extends Component {
   handleBigrams = msg => {
     let key = Number(msg.key);
     let value = JSON.parse(msg.value);
-    if (key > this.state.topic.bigrams.batchId && value.value > 3) {
+    console.log(msg);
+    if (key > this.state.topic.bigrams.batchId && value.value > 2) {
       this.setState(prevState => ({
         ...prevState,
         topic: {
@@ -81,7 +82,7 @@ class Dashboard extends Component {
           }
         }
       }));
-    } else if (key === this.state.topic.bigrams.batchId && value.value > 3) {
+    } else if (key === this.state.topic.bigrams.batchId && value.value > 2) {
       this.setState(prevState => ({
         ...prevState,
         topic: {
