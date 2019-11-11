@@ -38,7 +38,7 @@ const styles = theme => ({
 class Dashboard extends Component {
   state = {
     topic: {
-      trigrams: {
+      bigrams: {
         batchId: -1,
         window: null,
         threshold: 3,
@@ -57,31 +57,23 @@ class Dashboard extends Component {
       console.log("Connected to webserver");
     });
 
-    this.socket.on("trigrams", this.handleTrigrams);
-
-    this.socket.on("sentiments", this.handleSentiments);
+    this.socket.on("bigrams", this.handleBigrams);
   }
-
-  handleSentiments = msg => {
-    let val = JSON.parse(msg.value);
-    console.log(msg.key);
-    console.log(val);
-  };
   /**
    * Recapture context of "this" so that we can look for state.
    * A threshold minimum threshold of 2 is set for bigrams to
    * be shown on the wordcloud.
    */
-  handleTrigrams = msg => {
+  handleBigrams = msg => {
     let key = Number(msg.key);
     let value = JSON.parse(msg.value);
-    if (key > this.state.topic.trigrams.batchId && value.value > 3) {
+    if (key > this.state.topic.bigrams.batchId && value.value > 3) {
       this.setState(prevState => ({
         ...prevState,
         topic: {
           ...prevState.topic,
-          trigrams: {
-            ...prevState.topic.trigrams,
+          bigrams: {
+            ...prevState.topic.bigrams,
             batchId: key,
             window: value.window,
             loader: false,
@@ -89,14 +81,14 @@ class Dashboard extends Component {
           }
         }
       }));
-    } else if (key === this.state.topic.trigrams.batchId && value.value > 3) {
+    } else if (key === this.state.topic.bigrams.batchId && value.value > 3) {
       this.setState(prevState => ({
         ...prevState,
         topic: {
           ...prevState.topic,
-          trigrams: {
-            ...prevState.topic.trigrams,
-            messages: [...prevState.topic.trigrams.messages, value]
+          bigrams: {
+            ...prevState.topic.bigrams,
+            messages: [...prevState.topic.bigrams.messages, value]
           }
         }
       }));
@@ -109,7 +101,7 @@ class Dashboard extends Component {
 
   render() {
     const { classes, theme } = this.props;
-    const { window, loader, threshold, messages } = this.state.topic.trigrams;
+    const { window, loader, threshold, messages } = this.state.topic.bigrams;
 
     return (
       <NavigationDrawer>

@@ -28,7 +28,6 @@ class SentimentPage extends Component {
       sentiments: {
         batchId: -1,
         window: null,
-        threshold: 3,
         loader: true,
         messages: []
       }
