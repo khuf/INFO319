@@ -107,7 +107,7 @@ class Dashboard extends Component {
     return (
       <NavigationDrawer>
         <Grid container spacing={3}>
-          <Grid container item sm={6} xs={12}>
+          <Grid container item sm={12} xs={12}>
             <Box width="100%">
               <Paper className={classes.paper}>
                 <Typography variant="subtitle2">
@@ -156,7 +156,7 @@ class Dashboard extends Component {
               </Paper>
             </Box>
           </Grid>
-          <Grid container item sm={6} xs={12}>
+          <Grid container item sm={12} xs={12}>
             <Box width="100%">
               <Paper className={classes.paper}>
                 <Typography variant="h6">
@@ -165,7 +165,7 @@ class Dashboard extends Component {
                 <TwitterTimelineEmbed
                   sourceType="profile"
                   screenName="HarveyRelief"
-                  options={{ height: 375 }}
+                  options={{ height: 1000 }}
                 />
                 <TwitterTimelineEmbed
                   sourceType="profile"
