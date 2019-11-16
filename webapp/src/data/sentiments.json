@@ -443,8 +443,9 @@
     ],
     "combinedResult": [
       {
-        "0": "negative",
-        "1": {
+        "0": "#TormentaTropical #Harvey sobre las Antillas Menores, a 2,680 km al este-sureste de las costas de #QuintanaRoo en el Océ…",
+        "1": "negative",
+        "2": {
           "confidence": "0.6285"
         }
       }
@@ -774,8 +775,9 @@
     ],
     "combinedResult": [
       {
-        "0": "negative",
-        "1": {
+        "0": "Aguas con el tal #Harvey, no lo pierdan de vista #Coahuila #NuevoLeon #Tamaulipas",
+        "1": "negative",
+        "2": {
           "confidence": "0.6744"
         }
       }
@@ -1205,14 +1207,16 @@
     ],
     "combinedResult": [
       {
-        "0": "negative",
-        "1": {
+        "0": "Tropical Storm #Harvey has entered the Caribbean.",
+        "1": "negative",
+        "2": {
           "confidence": "0.4652"
         }
       },
       {
-        "0": "negative",
-        "1": {
+        "0": "Heavy rain threat to Central America early/mid next week:",
+        "1": "negative",
+        "2": {
           "confidence": "0.5431"
         }
       }
@@ -1662,14 +1666,16 @@
     ],
     "combinedResult": [
       {
-        "0": "negative",
-        "1": {
+        "0": "La Tormenta Tropical #Harvey sigue sin representar algún riesgo para Quintana Roo.",
+        "1": "negative",
+        "2": {
           "confidence": "0.5141"
         }
       },
       {
-        "0": "positive",
-        "1": {
+        "0": "Nos mantenemos en fase de acercamient…",
+        "1": "positive",
+        "2": {
           "confidence": "1.0"
         }
       }
@@ -2199,26 +2205,30 @@
     ],
     "combinedResult": [
       {
-        "0": "positive",
-        "1": {
+        "0": "They are known to make huge mistakes in d public.",
+        "1": "positive",
+        "2": {
           "confidence": "0.5002"
         }
       },
       {
-        "0": "negative",
-        "1": {
+        "0": ".",
+        "1": "negative",
+        "2": {
           "confidence": "0.5140"
         }
       },
       {
-        "0": "negative",
-        "1": {
+        "0": ".",
+        "1": "negative",
+        "2": {
           "confidence": "0.5140"
         }
       },
       {
-        "0": "negative",
-        "1": {
+        "0": "so projections might just be iffy #steveharvey #harvey",
+        "1": "negative",
+        "2": {
           "confidence": "0.6302"
         }
       }
@@ -2688,20 +2698,23 @@
     ],
     "combinedResult": [
       {
-        "0": "negative",
-        "1": {
+        "0": ".",
+        "1": "negative",
+        "2": {
           "confidence": "0.5140"
         }
       },
       {
-        "0": "negative",
-        "1": {
+        "0": "Tormenta Tropical #Harvey 5pm 18ago: Centro a 260Km al NNE de Juan Griego, Margarita.",
+        "1": "negative",
+        "2": {
           "confidence": "0.5560"
         }
       },
       {
-        "0": "na",
-        "1": {
+        "0": "Visible",
+        "1": "na",
+        "2": {
           "confidence": "0.0"
         }
       }
@@ -3071,671 +3084,10 @@
     ],
     "combinedResult": [
       {
-        "0": "negative",
-        "1": {
+        "0": "Trayectoria pronóstico de la #TormentaTropical #Harvey que se desplaza hacia el oeste a 33 km/h.",
+        "1": "negative",
+        "2": {
           "confidence": "0.5097"
-        }
-      }
-    ]
-  },
-  {
-    "text": "La tormenta tropical #Harvey continúa su avance por el este del Caribe",
-    "document": [
-      {
-        "annotatorType": "document",
-        "begin": 0,
-        "end": 69,
-        "result": "La tormenta tropical #Harvey continúa su avance por el este del Caribe",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      }
-    ],
-    "sentence": [
-      {
-        "annotatorType": "document",
-        "begin": 0,
-        "end": 69,
-        "result": "La tormenta tropical #Harvey continúa su avance por el este del Caribe",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      }
-    ],
-    "token": [
-      {
-        "annotatorType": "token",
-        "begin": 0,
-        "end": 1,
-        "result": "La",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 3,
-        "end": 10,
-        "result": "tormenta",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 12,
-        "end": 19,
-        "result": "tropical",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 21,
-        "end": 27,
-        "result": "#Harvey",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 29,
-        "end": 36,
-        "result": "continúa",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 38,
-        "end": 39,
-        "result": "su",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 41,
-        "end": 46,
-        "result": "avance",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 48,
-        "end": 50,
-        "result": "por",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 52,
-        "end": 53,
-        "result": "el",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 55,
-        "end": 58,
-        "result": "este",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 60,
-        "end": 62,
-        "result": "del",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 64,
-        "end": 69,
-        "result": "Caribe",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      }
-    ],
-    "checked": [
-      {
-        "annotatorType": "token",
-        "begin": 0,
-        "end": 1,
-        "result": "La",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 3,
-        "end": 10,
-        "result": "tormenta",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 12,
-        "end": 19,
-        "result": "tropical",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 21,
-        "end": 27,
-        "result": "Harvey",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 29,
-        "end": 36,
-        "result": "continua",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 38,
-        "end": 39,
-        "result": "su",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 41,
-        "end": 46,
-        "result": "avance",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 48,
-        "end": 50,
-        "result": "por",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 52,
-        "end": 53,
-        "result": "el",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 55,
-        "end": 58,
-        "result": "este",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 60,
-        "end": 62,
-        "result": "del",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 64,
-        "end": 69,
-        "result": "Carice",
-        "metadata": {
-          "confidence": "0.2"
-        },
-        "embeddings": []
-      }
-    ],
-    "sentiment": [
-      {
-        "annotatorType": "sentiment",
-        "begin": 0,
-        "end": 69,
-        "result": "negative",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      }
-    ],
-    "combinedResult": [
-      {
-        "0": "negative",
-        "1": {
-          "confidence": "1.0"
-        }
-      }
-    ]
-  },
-  {
-    "text": "Se mantiene alerta por posible paso de tormenta tropical #Harvey @MagdalenaDCC @GestionRiesgoSM @CruzRojaMag @UNGRD @EKALVARADO18 @jgesquea",
-    "document": [
-      {
-        "annotatorType": "document",
-        "begin": 0,
-        "end": 138,
-        "result": "Se mantiene alerta por posible paso de tormenta tropical #Harvey @MagdalenaDCC @GestionRiesgoSM @CruzRojaMag @UNGRD @EKALVARADO18 @jgesquea",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      }
-    ],
-    "sentence": [
-      {
-        "annotatorType": "document",
-        "begin": 0,
-        "end": 138,
-        "result": "Se mantiene alerta por posible paso de tormenta tropical #Harvey @MagdalenaDCC @GestionRiesgoSM @CruzRojaMag @UNGRD @EKALVARADO18 @jgesquea",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      }
-    ],
-    "token": [
-      {
-        "annotatorType": "token",
-        "begin": 0,
-        "end": 1,
-        "result": "Se",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 3,
-        "end": 10,
-        "result": "mantiene",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 12,
-        "end": 17,
-        "result": "alerta",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 19,
-        "end": 21,
-        "result": "por",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 23,
-        "end": 29,
-        "result": "posible",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 31,
-        "end": 34,
-        "result": "paso",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 36,
-        "end": 37,
-        "result": "de",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 39,
-        "end": 46,
-        "result": "tormenta",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 48,
-        "end": 55,
-        "result": "tropical",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 57,
-        "end": 63,
-        "result": "#Harvey",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 65,
-        "end": 77,
-        "result": "@MagdalenaDCC",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 79,
-        "end": 94,
-        "result": "@GestionRiesgoSM",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 96,
-        "end": 107,
-        "result": "@CruzRojaMag",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 109,
-        "end": 114,
-        "result": "@UNGRD",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 116,
-        "end": 128,
-        "result": "@EKALVARADO18",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 130,
-        "end": 138,
-        "result": "@jgesquea",
-        "metadata": {
-          "sentence": "0"
-        },
-        "embeddings": []
-      }
-    ],
-    "checked": [
-      {
-        "annotatorType": "token",
-        "begin": 0,
-        "end": 1,
-        "result": "Se",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 3,
-        "end": 10,
-        "result": "mantiene",
-        "metadata": {
-          "confidence": "0.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 12,
-        "end": 17,
-        "result": "alerta",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 19,
-        "end": 21,
-        "result": "por",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 23,
-        "end": 29,
-        "result": "posible",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 31,
-        "end": 34,
-        "result": "past",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 36,
-        "end": 37,
-        "result": "de",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 39,
-        "end": 46,
-        "result": "tormenta",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 48,
-        "end": 55,
-        "result": "tropical",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 57,
-        "end": 63,
-        "result": "Harvey",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 65,
-        "end": 77,
-        "result": "@MagdalenaDCC",
-        "metadata": {
-          "confidence": "0.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 79,
-        "end": 94,
-        "result": "@GestionRiesgoSM",
-        "metadata": {
-          "confidence": "0.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 96,
-        "end": 107,
-        "result": "@CruzRojaMag",
-        "metadata": {
-          "confidence": "0.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 109,
-        "end": 114,
-        "result": "@UNGRD",
-        "metadata": {
-          "confidence": "0.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 116,
-        "end": 128,
-        "result": "@EKALVARADO18",
-        "metadata": {
-          "confidence": "0.0"
-        },
-        "embeddings": []
-      },
-      {
-        "annotatorType": "token",
-        "begin": 130,
-        "end": 138,
-        "result": "@jgesquea",
-        "metadata": {
-          "confidence": "0.0"
-        },
-        "embeddings": []
-      }
-    ],
-    "sentiment": [
-      {
-        "annotatorType": "sentiment",
-        "begin": 0,
-        "end": 138,
-        "result": "negative",
-        "metadata": {
-          "confidence": "1.0"
-        },
-        "embeddings": []
-      }
-    ],
-    "combinedResult": [
-      {
-        "0": "negative",
-        "1": {
-          "confidence": "1.0"
         }
       }
     ]
