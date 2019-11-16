@@ -1,0 +1,3743 @@
+[
+  {
+    "text": "#TormentaTropical #Harvey sobre las Antillas Menores, a 2,680 km al este-sureste de las costas de #QuintanaRoo en el Océ…",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 120,
+        "result": "#TormentaTropical #Harvey sobre las Antillas Menores, a 2,680 km al este-sureste de las costas de #QuintanaRoo en el Océ…",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 120,
+        "result": "#TormentaTropical #Harvey sobre las Antillas Menores, a 2,680 km al este-sureste de las costas de #QuintanaRoo en el Océ…",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 16,
+        "result": "#TormentaTropical",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 18,
+        "end": 24,
+        "result": "#Harvey",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 26,
+        "end": 30,
+        "result": "sobre",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 32,
+        "end": 34,
+        "result": "las",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 36,
+        "end": 43,
+        "result": "Antillas",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 45,
+        "end": 51,
+        "result": "Menores",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 52,
+        "end": 52,
+        "result": ",",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 54,
+        "end": 54,
+        "result": "a",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 56,
+        "end": 60,
+        "result": "2,680",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 62,
+        "end": 63,
+        "result": "km",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 65,
+        "end": 66,
+        "result": "al",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 68,
+        "end": 79,
+        "result": "este-sureste",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 81,
+        "end": 82,
+        "result": "de",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 84,
+        "end": 86,
+        "result": "las",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 88,
+        "end": 93,
+        "result": "costas",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 95,
+        "end": 96,
+        "result": "de",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 98,
+        "end": 109,
+        "result": "#QuintanaRoo",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 111,
+        "end": 112,
+        "result": "en",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 114,
+        "end": 115,
+        "result": "el",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 117,
+        "end": 120,
+        "result": "Océ…",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 16,
+        "result": "#TormentaTropical",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 18,
+        "end": 24,
+        "result": "Harvey",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 26,
+        "end": 30,
+        "result": "sobre",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 32,
+        "end": 34,
+        "result": "las",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 36,
+        "end": 43,
+        "result": "Antilles",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 45,
+        "end": 51,
+        "result": "senores",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 52,
+        "end": 52,
+        "result": ",",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 54,
+        "end": 54,
+        "result": "a",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 56,
+        "end": 60,
+        "result": "2,680",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 62,
+        "end": 63,
+        "result": "km",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 65,
+        "end": 66,
+        "result": "al",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 68,
+        "end": 79,
+        "result": "este-sureste",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 81,
+        "end": 82,
+        "result": "de",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 84,
+        "end": 86,
+        "result": "las",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 88,
+        "end": 93,
+        "result": "costars",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 95,
+        "end": 96,
+        "result": "de",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 98,
+        "end": 109,
+        "result": "#QuintanaRoo",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 111,
+        "end": 112,
+        "result": "en",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 114,
+        "end": 115,
+        "result": "el",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 117,
+        "end": 120,
+        "result": "Océ…",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 120,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.6285"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.6285"
+        }
+      }
+    ]
+  },
+  {
+    "text": "Aguas con el tal #Harvey, no lo pierdan de vista #Coahuila #NuevoLeon #Tamaulipas",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 80,
+        "result": "Aguas con el tal #Harvey, no lo pierdan de vista #Coahuila #NuevoLeon #Tamaulipas",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 80,
+        "result": "Aguas con el tal #Harvey, no lo pierdan de vista #Coahuila #NuevoLeon #Tamaulipas",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 4,
+        "result": "Aguas",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 6,
+        "end": 8,
+        "result": "con",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 10,
+        "end": 11,
+        "result": "el",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 13,
+        "end": 15,
+        "result": "tal",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 17,
+        "end": 23,
+        "result": "#Harvey",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 24,
+        "end": 24,
+        "result": ",",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 26,
+        "end": 27,
+        "result": "no",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 29,
+        "end": 30,
+        "result": "lo",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 32,
+        "end": 38,
+        "result": "pierdan",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 40,
+        "end": 41,
+        "result": "de",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 43,
+        "end": 47,
+        "result": "vista",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 49,
+        "end": 57,
+        "result": "#Coahuila",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 59,
+        "end": 68,
+        "result": "#NuevoLeon",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 70,
+        "end": 80,
+        "result": "#Tamaulipas",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 4,
+        "result": "Agus",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 6,
+        "end": 8,
+        "result": "con",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 10,
+        "end": 11,
+        "result": "el",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 13,
+        "end": 15,
+        "result": "tal",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 17,
+        "end": 23,
+        "result": "Harvey",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 24,
+        "end": 24,
+        "result": ",",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 26,
+        "end": 27,
+        "result": "no",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 29,
+        "end": 30,
+        "result": "lo",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 32,
+        "end": 38,
+        "result": "pierdan",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 40,
+        "end": 41,
+        "result": "de",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 43,
+        "end": 47,
+        "result": "vista",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 49,
+        "end": 57,
+        "result": "Coahuila",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 59,
+        "end": 68,
+        "result": "#NuevoLeon",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 70,
+        "end": 80,
+        "result": "Tamaulipas",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 80,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.6744"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.6744"
+        }
+      }
+    ]
+  },
+  {
+    "text": "Tropical Storm #Harvey has entered the Caribbean. Heavy rain threat to Central America early/mid next week:",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 106,
+        "result": "Tropical Storm #Harvey has entered the Caribbean. Heavy rain threat to Central America early/mid next week:",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 48,
+        "result": "Tropical Storm #Harvey has entered the Caribbean.",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "document",
+        "begin": 50,
+        "end": 106,
+        "result": "Heavy rain threat to Central America early/mid next week:",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 7,
+        "result": "Tropical",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 9,
+        "end": 13,
+        "result": "Storm",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 15,
+        "end": 21,
+        "result": "#Harvey",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 23,
+        "end": 25,
+        "result": "has",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 27,
+        "end": 33,
+        "result": "entered",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 35,
+        "end": 37,
+        "result": "the",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 39,
+        "end": 47,
+        "result": "Caribbean",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 48,
+        "result": ".",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 50,
+        "end": 54,
+        "result": "Heavy",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 56,
+        "end": 59,
+        "result": "rain",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 61,
+        "end": 66,
+        "result": "threat",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 68,
+        "end": 69,
+        "result": "to",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 71,
+        "end": 77,
+        "result": "Central",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 79,
+        "end": 85,
+        "result": "America",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 87,
+        "end": 95,
+        "result": "early/mid",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 97,
+        "end": 100,
+        "result": "next",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 102,
+        "end": 105,
+        "result": "week",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 106,
+        "end": 106,
+        "result": ":",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 7,
+        "result": "Tropical",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 9,
+        "end": 13,
+        "result": "Storm",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 15,
+        "end": 21,
+        "result": "Harvey",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 23,
+        "end": 25,
+        "result": "has",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 27,
+        "end": 33,
+        "result": "entered",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 35,
+        "end": 37,
+        "result": "the",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 39,
+        "end": 47,
+        "result": "Caribbean",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 48,
+        "result": ".",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 50,
+        "end": 54,
+        "result": "Heavy",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 56,
+        "end": 59,
+        "result": "rain",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 61,
+        "end": 66,
+        "result": "threat",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 68,
+        "end": 69,
+        "result": "to",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 71,
+        "end": 77,
+        "result": "Central",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 79,
+        "end": 85,
+        "result": "America",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 87,
+        "end": 95,
+        "result": "early/mid",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 97,
+        "end": 100,
+        "result": "next",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 102,
+        "end": 105,
+        "result": "week",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 106,
+        "end": 106,
+        "result": ":",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 48,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.4652"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "sentiment",
+        "begin": 50,
+        "end": 106,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.5431"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.4652"
+        }
+      },
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.5431"
+        }
+      }
+    ]
+  },
+  {
+    "text": "La Tormenta Tropical #Harvey sigue sin representar algún riesgo para Quintana Roo. Nos mantenemos en fase de acercamient…",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 120,
+        "result": "La Tormenta Tropical #Harvey sigue sin representar algún riesgo para Quintana Roo. Nos mantenemos en fase de acercamient…",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 81,
+        "result": "La Tormenta Tropical #Harvey sigue sin representar algún riesgo para Quintana Roo.",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "document",
+        "begin": 83,
+        "end": 120,
+        "result": "Nos mantenemos en fase de acercamient…",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 1,
+        "result": "La",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 3,
+        "end": 10,
+        "result": "Tormenta",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 12,
+        "end": 19,
+        "result": "Tropical",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 21,
+        "end": 27,
+        "result": "#Harvey",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 29,
+        "end": 33,
+        "result": "sigue",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 35,
+        "end": 37,
+        "result": "sin",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 39,
+        "end": 49,
+        "result": "representar",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 51,
+        "end": 55,
+        "result": "algún",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 57,
+        "end": 62,
+        "result": "riesgo",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 64,
+        "end": 67,
+        "result": "para",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 69,
+        "end": 76,
+        "result": "Quintana",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 78,
+        "end": 80,
+        "result": "Roo",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 81,
+        "end": 81,
+        "result": ".",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 83,
+        "end": 85,
+        "result": "Nos",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 87,
+        "end": 96,
+        "result": "mantenemos",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 98,
+        "end": 99,
+        "result": "en",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 101,
+        "end": 104,
+        "result": "fase",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 106,
+        "end": 107,
+        "result": "de",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 109,
+        "end": 120,
+        "result": "acercamient…",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 1,
+        "result": "La",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 3,
+        "end": 10,
+        "result": "tormenta",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 12,
+        "end": 19,
+        "result": "Tropical",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 21,
+        "end": 27,
+        "result": "Harvey",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 29,
+        "end": 33,
+        "result": "sigue",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 35,
+        "end": 37,
+        "result": "sin",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 39,
+        "end": 49,
+        "result": "representar",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 51,
+        "end": 55,
+        "result": "algin",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 57,
+        "end": 62,
+        "result": "riesgo",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 64,
+        "end": 67,
+        "result": "para",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 69,
+        "end": 76,
+        "result": "Quintana",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 78,
+        "end": 80,
+        "result": "Roo",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 81,
+        "end": 81,
+        "result": ".",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 83,
+        "end": 85,
+        "result": "Nos",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 87,
+        "end": 96,
+        "result": "mantenemos",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 98,
+        "end": 99,
+        "result": "en",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 101,
+        "end": 104,
+        "result": "case",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 106,
+        "end": 107,
+        "result": "de",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 109,
+        "end": 120,
+        "result": "acercamient…",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 81,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.5141"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "sentiment",
+        "begin": 83,
+        "end": 120,
+        "result": "positive",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.5141"
+        }
+      },
+      {
+        "0": "positive",
+        "1": {
+          "confidence": "1.0"
+        }
+      }
+    ]
+  },
+  {
+    "text": "They are known to make huge mistakes in d public... so projections might just be iffy #steveharvey #harvey",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 105,
+        "result": "They are known to make huge mistakes in d public... so projections might just be iffy #steveharvey #harvey",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 48,
+        "result": "They are known to make huge mistakes in d public.",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "document",
+        "begin": 49,
+        "end": 49,
+        "result": ".",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "document",
+        "begin": 50,
+        "end": 50,
+        "result": ".",
+        "metadata": {
+          "sentence": "2"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "document",
+        "begin": 52,
+        "end": 105,
+        "result": "so projections might just be iffy #steveharvey #harvey",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 3,
+        "result": "They",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 5,
+        "end": 7,
+        "result": "are",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 9,
+        "end": 13,
+        "result": "known",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 15,
+        "end": 16,
+        "result": "to",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 18,
+        "end": 21,
+        "result": "make",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 23,
+        "end": 26,
+        "result": "huge",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 28,
+        "end": 35,
+        "result": "mistakes",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 37,
+        "end": 38,
+        "result": "in",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 40,
+        "end": 40,
+        "result": "d",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 42,
+        "end": 47,
+        "result": "public",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 48,
+        "result": ".",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 49,
+        "end": 49,
+        "result": ".",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 50,
+        "end": 50,
+        "result": ".",
+        "metadata": {
+          "sentence": "2"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 52,
+        "end": 53,
+        "result": "so",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 55,
+        "end": 65,
+        "result": "projections",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 67,
+        "end": 71,
+        "result": "might",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 73,
+        "end": 76,
+        "result": "just",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 78,
+        "end": 79,
+        "result": "be",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 81,
+        "end": 84,
+        "result": "iffy",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 86,
+        "end": 97,
+        "result": "#steveharvey",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 99,
+        "end": 105,
+        "result": "#harvey",
+        "metadata": {
+          "sentence": "3"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 3,
+        "result": "They",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 5,
+        "end": 7,
+        "result": "are",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 9,
+        "end": 13,
+        "result": "known",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 15,
+        "end": 16,
+        "result": "to",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 18,
+        "end": 21,
+        "result": "make",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 23,
+        "end": 26,
+        "result": "huge",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 28,
+        "end": 35,
+        "result": "mistakes",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 37,
+        "end": 38,
+        "result": "in",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 40,
+        "end": 40,
+        "result": "d",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 42,
+        "end": 47,
+        "result": "public",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 48,
+        "result": ".",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 49,
+        "end": 49,
+        "result": ".",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 50,
+        "end": 50,
+        "result": ".",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 52,
+        "end": 53,
+        "result": "so",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 55,
+        "end": 65,
+        "result": "projections",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 67,
+        "end": 71,
+        "result": "might",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 73,
+        "end": 76,
+        "result": "just",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 78,
+        "end": 79,
+        "result": "be",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 81,
+        "end": 84,
+        "result": "iffy",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 86,
+        "end": 97,
+        "result": "#steveharvey",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 99,
+        "end": 105,
+        "result": "#harvey",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 48,
+        "result": "positive",
+        "metadata": {
+          "confidence": "0.5002"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "sentiment",
+        "begin": 49,
+        "end": 49,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.5140"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "sentiment",
+        "begin": 50,
+        "end": 50,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.5140"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "sentiment",
+        "begin": 52,
+        "end": 105,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.6302"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "positive",
+        "1": {
+          "confidence": "0.5002"
+        }
+      },
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.5140"
+        }
+      },
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.5140"
+        }
+      },
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.6302"
+        }
+      }
+    ]
+  },
+  {
+    "text": ". Tormenta Tropical #Harvey 5pm 18ago: Centro a 260Km al NNE de Juan Griego, Margarita. Visible",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 94,
+        "result": ". Tormenta Tropical #Harvey 5pm 18ago: Centro a 260Km al NNE de Juan Griego, Margarita. Visible",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 0,
+        "result": ".",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "document",
+        "begin": 2,
+        "end": 86,
+        "result": "Tormenta Tropical #Harvey 5pm 18ago: Centro a 260Km al NNE de Juan Griego, Margarita.",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "document",
+        "begin": 88,
+        "end": 94,
+        "result": "Visible",
+        "metadata": {
+          "sentence": "2"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 0,
+        "result": ".",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 2,
+        "end": 9,
+        "result": "Tormenta",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 11,
+        "end": 18,
+        "result": "Tropical",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 20,
+        "end": 26,
+        "result": "#Harvey",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 28,
+        "end": 30,
+        "result": "5pm",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 32,
+        "end": 36,
+        "result": "18ago",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 37,
+        "end": 37,
+        "result": ":",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 39,
+        "end": 44,
+        "result": "Centro",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 46,
+        "end": 46,
+        "result": "a",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 52,
+        "result": "260Km",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 54,
+        "end": 55,
+        "result": "al",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 57,
+        "end": 59,
+        "result": "NNE",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 61,
+        "end": 62,
+        "result": "de",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 64,
+        "end": 67,
+        "result": "Juan",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 69,
+        "end": 74,
+        "result": "Griego",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 75,
+        "end": 75,
+        "result": ",",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 77,
+        "end": 85,
+        "result": "Margarita",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 86,
+        "end": 86,
+        "result": ".",
+        "metadata": {
+          "sentence": "1"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 88,
+        "end": 94,
+        "result": "Visible",
+        "metadata": {
+          "sentence": "2"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 0,
+        "result": ".",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 2,
+        "end": 9,
+        "result": "tormenta",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 11,
+        "end": 18,
+        "result": "Tropical",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 20,
+        "end": 26,
+        "result": "Harvey",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 28,
+        "end": 30,
+        "result": "5pm",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 32,
+        "end": 36,
+        "result": "18ago",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 37,
+        "end": 37,
+        "result": ":",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 39,
+        "end": 44,
+        "result": "Centro",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 46,
+        "end": 46,
+        "result": "a",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 52,
+        "result": "260Km",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 54,
+        "end": 55,
+        "result": "al",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 57,
+        "end": 59,
+        "result": "NNE",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 61,
+        "end": 62,
+        "result": "de",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 64,
+        "end": 67,
+        "result": "Juan",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 69,
+        "end": 74,
+        "result": "Grieg",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 75,
+        "end": 75,
+        "result": ",",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 77,
+        "end": 85,
+        "result": "Margarita",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 86,
+        "end": 86,
+        "result": ".",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 88,
+        "end": 94,
+        "result": "visible",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 0,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.5140"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "sentiment",
+        "begin": 2,
+        "end": 86,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.5560"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "sentiment",
+        "begin": 88,
+        "end": 94,
+        "result": "na",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.5140"
+        }
+      },
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.5560"
+        }
+      },
+      {
+        "0": "na",
+        "1": {
+          "confidence": "0.0"
+        }
+      }
+    ]
+  },
+  {
+    "text": "Trayectoria pronóstico de la #TormentaTropical #Harvey que se desplaza hacia el oeste a 33 km/h.",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 95,
+        "result": "Trayectoria pronóstico de la #TormentaTropical #Harvey que se desplaza hacia el oeste a 33 km/h.",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 95,
+        "result": "Trayectoria pronóstico de la #TormentaTropical #Harvey que se desplaza hacia el oeste a 33 km/h.",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 10,
+        "result": "Trayectoria",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 12,
+        "end": 21,
+        "result": "pronóstico",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 23,
+        "end": 24,
+        "result": "de",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 26,
+        "end": 27,
+        "result": "la",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 29,
+        "end": 45,
+        "result": "#TormentaTropical",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 47,
+        "end": 53,
+        "result": "#Harvey",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 55,
+        "end": 57,
+        "result": "que",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 59,
+        "end": 60,
+        "result": "se",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 62,
+        "end": 69,
+        "result": "desplaza",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 71,
+        "end": 75,
+        "result": "hacia",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 77,
+        "end": 78,
+        "result": "el",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 80,
+        "end": 84,
+        "result": "oeste",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 86,
+        "end": 86,
+        "result": "a",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 88,
+        "end": 89,
+        "result": "33",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 91,
+        "end": 94,
+        "result": "km/h",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 95,
+        "end": 95,
+        "result": ".",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 10,
+        "result": "Trayectoria",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 12,
+        "end": 21,
+        "result": "pronóstico",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 23,
+        "end": 24,
+        "result": "de",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 26,
+        "end": 27,
+        "result": "la",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 29,
+        "end": 45,
+        "result": "#TormentaTropical",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 47,
+        "end": 53,
+        "result": "Harvey",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 55,
+        "end": 57,
+        "result": "que",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 59,
+        "end": 60,
+        "result": "se",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 62,
+        "end": 69,
+        "result": "desplaza",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 71,
+        "end": 75,
+        "result": "hacia",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 77,
+        "end": 78,
+        "result": "el",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 80,
+        "end": 84,
+        "result": "teste",
+        "metadata": {
+          "confidence": "0.2"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 86,
+        "end": 86,
+        "result": "a",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 88,
+        "end": 89,
+        "result": "33",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 91,
+        "end": 94,
+        "result": "km/h",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 95,
+        "end": 95,
+        "result": ".",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 95,
+        "result": "negative",
+        "metadata": {
+          "confidence": "0.5097"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "0.5097"
+        }
+      }
+    ]
+  },
+  {
+    "text": "La tormenta tropical #Harvey continúa su avance por el este del Caribe",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 69,
+        "result": "La tormenta tropical #Harvey continúa su avance por el este del Caribe",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 69,
+        "result": "La tormenta tropical #Harvey continúa su avance por el este del Caribe",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 1,
+        "result": "La",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 3,
+        "end": 10,
+        "result": "tormenta",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 12,
+        "end": 19,
+        "result": "tropical",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 21,
+        "end": 27,
+        "result": "#Harvey",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 29,
+        "end": 36,
+        "result": "continúa",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 38,
+        "end": 39,
+        "result": "su",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 41,
+        "end": 46,
+        "result": "avance",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 50,
+        "result": "por",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 52,
+        "end": 53,
+        "result": "el",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 55,
+        "end": 58,
+        "result": "este",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 60,
+        "end": 62,
+        "result": "del",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 64,
+        "end": 69,
+        "result": "Caribe",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 1,
+        "result": "La",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 3,
+        "end": 10,
+        "result": "tormenta",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 12,
+        "end": 19,
+        "result": "tropical",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 21,
+        "end": 27,
+        "result": "Harvey",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 29,
+        "end": 36,
+        "result": "continua",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 38,
+        "end": 39,
+        "result": "su",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 41,
+        "end": 46,
+        "result": "avance",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 50,
+        "result": "por",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 52,
+        "end": 53,
+        "result": "el",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 55,
+        "end": 58,
+        "result": "este",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 60,
+        "end": 62,
+        "result": "del",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 64,
+        "end": 69,
+        "result": "Carice",
+        "metadata": {
+          "confidence": "0.2"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 69,
+        "result": "negative",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "1.0"
+        }
+      }
+    ]
+  },
+  {
+    "text": "Se mantiene alerta por posible paso de tormenta tropical #Harvey @MagdalenaDCC @GestionRiesgoSM @CruzRojaMag @UNGRD @EKALVARADO18 @jgesquea",
+    "document": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 138,
+        "result": "Se mantiene alerta por posible paso de tormenta tropical #Harvey @MagdalenaDCC @GestionRiesgoSM @CruzRojaMag @UNGRD @EKALVARADO18 @jgesquea",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentence": [
+      {
+        "annotatorType": "document",
+        "begin": 0,
+        "end": 138,
+        "result": "Se mantiene alerta por posible paso de tormenta tropical #Harvey @MagdalenaDCC @GestionRiesgoSM @CruzRojaMag @UNGRD @EKALVARADO18 @jgesquea",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "token": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 1,
+        "result": "Se",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 3,
+        "end": 10,
+        "result": "mantiene",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 12,
+        "end": 17,
+        "result": "alerta",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 19,
+        "end": 21,
+        "result": "por",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 23,
+        "end": 29,
+        "result": "posible",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 31,
+        "end": 34,
+        "result": "paso",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 36,
+        "end": 37,
+        "result": "de",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 39,
+        "end": 46,
+        "result": "tormenta",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 55,
+        "result": "tropical",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 57,
+        "end": 63,
+        "result": "#Harvey",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 65,
+        "end": 77,
+        "result": "@MagdalenaDCC",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 79,
+        "end": 94,
+        "result": "@GestionRiesgoSM",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 96,
+        "end": 107,
+        "result": "@CruzRojaMag",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 109,
+        "end": 114,
+        "result": "@UNGRD",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 116,
+        "end": 128,
+        "result": "@EKALVARADO18",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 130,
+        "end": 138,
+        "result": "@jgesquea",
+        "metadata": {
+          "sentence": "0"
+        },
+        "embeddings": []
+      }
+    ],
+    "checked": [
+      {
+        "annotatorType": "token",
+        "begin": 0,
+        "end": 1,
+        "result": "Se",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 3,
+        "end": 10,
+        "result": "mantiene",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 12,
+        "end": 17,
+        "result": "alerta",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 19,
+        "end": 21,
+        "result": "por",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 23,
+        "end": 29,
+        "result": "posible",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 31,
+        "end": 34,
+        "result": "past",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 36,
+        "end": 37,
+        "result": "de",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 39,
+        "end": 46,
+        "result": "tormenta",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 48,
+        "end": 55,
+        "result": "tropical",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 57,
+        "end": 63,
+        "result": "Harvey",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 65,
+        "end": 77,
+        "result": "@MagdalenaDCC",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 79,
+        "end": 94,
+        "result": "@GestionRiesgoSM",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 96,
+        "end": 107,
+        "result": "@CruzRojaMag",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 109,
+        "end": 114,
+        "result": "@UNGRD",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 116,
+        "end": 128,
+        "result": "@EKALVARADO18",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      },
+      {
+        "annotatorType": "token",
+        "begin": 130,
+        "end": 138,
+        "result": "@jgesquea",
+        "metadata": {
+          "confidence": "0.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "sentiment": [
+      {
+        "annotatorType": "sentiment",
+        "begin": 0,
+        "end": 138,
+        "result": "negative",
+        "metadata": {
+          "confidence": "1.0"
+        },
+        "embeddings": []
+      }
+    ],
+    "combinedResult": [
+      {
+        "0": "negative",
+        "1": {
+          "confidence": "1.0"
+        }
+      }
+    ]
+  }
+]
