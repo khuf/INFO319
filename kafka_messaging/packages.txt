@@ -1,8 +1,0 @@
-kafka-python==1.4.7
-gpg==1.10.0
-lxml==4.3.3
-nashpy==0.0.17
-numpy==1.16.0
-py4j==0.10.7
-pyspark==2.4.3
-scipy==1.2.0

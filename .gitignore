@@ -1,0 +1,31 @@
+### Java, Scala, SBT
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+spark_streaming/data
+spark_streaming/checkpoint
+spark_streaming/share
+spark_streaming/bin
+spark_streaming/warehouse
+spark_streaming/local
+spark_streaming/lib
+spark_streaming/incude
+spark_streaming/_spark_metadata
+
+#Log files
+*.log
+
+#Python (cahce, compiled files, etc)
+__pycache__/
+*.py[cod]
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+#Node
+node_modules/
+
