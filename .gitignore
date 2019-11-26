@@ -16,6 +16,7 @@ spark_streaming/lib
 spark_streaming/incude
 spark_streaming/_spark_metadata
 .part*
+.crc
 
 #Log files
 *.log
