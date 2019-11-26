@@ -8,7 +8,7 @@ producer = KafkaProducer(bootstrap_servers=hostname, value_serializer=lambda v: 
 
 the_files = ["mini_json_data_1000_records.jsonl","results1.jsonl"]
 
-with open("/home/INFO319/kafka_messaging/data/results1.jsonl", "r", encoding="UTF-8") as f:
+with open("/home/INFO319/spark_streaming/data/results1.jsonl", "r", encoding="UTF-8") as f:
     for line in f:
         line = json.loads(line)
         future = producer.send("tweets", line)

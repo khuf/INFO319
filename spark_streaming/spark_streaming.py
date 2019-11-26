@@ -69,17 +69,17 @@ sentiments = sentiments.selectExpr("CAST(text AS STRING) AS key", "to_json(struc
 bigram_config = {"bootstrap_servers": "localhost:9092", "topic": "bigrams"}
 
 # Queries
-sentiment_query = sentiments.writeStream.trigger(processingTime = "10 seconds").queryName("sentimentQuery").\
+'''sentiment_query = sentiments.writeStream.trigger(processingTime = "10 seconds").queryName("sentimentQuery").\
         foreach(KafkaSink({"bootstrap_servers": "localhost:9092", "topic": "sentiments"}))\
         .option("checkpointLocation", "data/sentiments")\
-        .start()
+        .start()'''
 
-'''bigram_query = bigram_df.writeStream\
+bigram_query = bigram_df.writeStream\
         .trigger(processingTime = "10 seconds")\
         .queryName("bigramQuery")\
         .foreach(KafkaSink(bigram_config))\
         .option("checkpointLocation", "data/")\
-        .start()'''
+        .start()
 
 spark.streams.awaitAnyTermination()
 
