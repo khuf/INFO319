@@ -95,11 +95,6 @@ class NavigationDrawer extends React.Component {
           ))}
         </List>
         <Divider />
-        <List>
-          <ListItem button key="About">
-            <ListItemText primary="About" />
-          </ListItem>
-        </List>
       </div>
     );
 
@@ -162,11 +157,7 @@ class NavigationDrawer extends React.Component {
 }
 
 NavigationDrawer.propTypes = {
-  classes: PropTypes.object.isRequired,
-  // Injected by the documentation to work in an iframe.
-  // You won't need it on your project.
-  container: PropTypes.object,
-  theme: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles, { withTheme: true })(NavigationDrawer);

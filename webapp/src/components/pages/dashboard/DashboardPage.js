@@ -10,18 +10,7 @@ import { HashLoader } from "react-spinners";
 import { Grid, InputLabel, Select, MenuItem } from "@material-ui/core/";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
-import {
-  TwitterTimelineEmbed,
-  /*TwitterShareButton,
-  TwitterFollowButton,*/
-  TwitterHashtagButton
-  /*TwitterMentionButton,
-  TwitterTweetEmbed,
-  TwitterMomentShare,
-  TwitterDMButton,
-  TwitterVideoEmbed,
-  TwitterOnAirButton*/
-} from "react-twitter-embed";
+import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 const styles = theme => ({
   content: {
@@ -109,7 +98,7 @@ class Dashboard extends Component {
         <Grid container spacing={3}>
           <Grid container item sm={12} xs={12}>
             <Box width="100%">
-              <Paper className={classes.paper}>
+              <Paper className={(classes.paper, theme.paper)}>
                 <Typography variant="subtitle2">
                   {"Showing bigrams with threshold " + threshold}
                 </Typography>

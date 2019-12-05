@@ -4,6 +4,9 @@ import data from "../../../data/sentiments.json";
 import Paper from "@material-ui/core/Paper";
 import Box from "@material-ui/core/Box";
 import openSocket from "socket.io-client";
+import Moment from "react-moment";
+import { HashLoader } from "react-spinners";
+import { makeStyles } from "@material-ui/core/styles";
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
 import TableCell from "@material-ui/core/TableCell";
@@ -13,7 +16,7 @@ import SentimentSatisfiedAltIcon from "@material-ui/icons/SentimentSatisfiedAlt"
 import SentimentVeryDissatisfiedIcon from "@material-ui/icons/SentimentVeryDissatisfied";
 import Tooltip from "@material-ui/core/Tooltip";
 
-import { Grid } from "@material-ui/core/";
+import { Grid, InputLabel, Select, MenuItem } from "@material-ui/core/";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 
@@ -99,7 +102,44 @@ class SentimentPage extends Component {
   }
 
   render() {
-    const { classes } = this.props;
+    const { classes, theme } = this.props;
+    const { window, loader, threshold, messages } = this.state.topic.sentiments;
+
+    const useStyles = makeStyles({
+      root: {
+        width: "100%",
+        overflowX: "auto"
+      },
+      table: {
+        minWidth: 650
+      }
+    });
+
+    function createData(name, sentiment, cf, id) {
+      return { name, sentiment, cf, id };
+    }
+
+    const rows = [
+      createData(
+        "Gobierno Bolivariano activa a más de 7.750 funcionarios ante tormenta",
+        ":)",
+        4.0,
+        "twitter.com"
+      ),
+      createData(
+        "Gobierno Bolivariano activa a más",
+        "SentimentSatisfiedAltIcon",
+        10.0,
+        "twitter.com"
+      ),
+      createData(
+        "De 7.750 funcionarios ante tormenta",
+        "SentimentVeryDissatisfiedIcon",
+        1.0,
+        "twitter.com"
+      ),
+      createData("ante tormenta", ":(", 14, "twitter.com")
+    ];
 
     return (
       <NavigationDrawer>
@@ -112,40 +152,36 @@ class SentimentPage extends Component {
                     <TableRow>
                       <TableCell>Sentence</TableCell>
                       <TableCell align="right">Sentiment</TableCell>
-                      <TableCell align="right">Confidence level</TableCell>
-                      <TableCell align="right">Link</TableCell>
-                      <TableCell align="right">Tweet ID</TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>
-                    {this.state.topic.sentiments.messages.map((tweet, id) =>
-                      tweet.combinedResult.map((sentence, index) => (
+                    {this.state.topic.sentiments.messages.map(
+                      (tweet, index) => (
                         <TableRow key={index}>
-                          <TableCell component="th" scope="row">
-                            <Tooltip title={tweet.text}>
-                              <Typography variant="body2">
-                                {sentence["0"]}
-                              </Typography>
-                            </Tooltip>
-                          </TableCell>
+                          <TableCell>{tweet.text}</TableCell>
                           <TableCell align="right">
-                            {sentence["1"] === "negative" ? (
-                              <SentimentVeryDissatisfiedIcon
-                                className={classes.negativeIcon}
-                              />
-                            ) : (
-                              <SentimentSatisfiedAltIcon
-                                className={classes.positiveIcon}
-                              />
+                            {tweet.combinedResult.map((sentence, index) =>
+                              sentence["1"] == "negative" ? (
+                                <Tooltip title={sentence["0"]}>
+                                  <SentimentVeryDissatisfiedIcon
+                                    className={classes.negativeIcon}
+                                  />
+                                </Tooltip>
+                              ) : (
+                                <Tooltip
+                                  title={
+                                    sentence["0"] + sentence["2"]["confidence"]
+                                  }
+                                >
+                                  <SentimentSatisfiedAltIcon
+                                    className={classes.positiveIcon}
+                                  />
+                                </Tooltip>
+                              )
                             )}
                           </TableCell>
-                          <TableCell align="right">
-                            {sentence["2"]["confidence"].toString()}
-                          </TableCell>
-                          <TableCell align="right">Link</TableCell>
-                          <TableCell align="right">{id}</TableCell>
                         </TableRow>
-                      ))
+                      )
                     )}
                   </TableBody>
                 </Table>
