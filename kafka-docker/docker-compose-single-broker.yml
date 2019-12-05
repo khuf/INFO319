@@ -1,0 +1,27 @@
+version: '2'
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181:2181"
+  kafka:
+    build: .
+    ports:
+      - "9092:9092"
+    expose:
+      - 9093
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: localhost
+      KAFKA_CREATE_TOPICS: "tweets:1:1,top_hashtags:1:1, bigrams:1:1, sentiments:1:1"
+      KAFKA_BROKER_ID: 1
+      KAFKA_LISTENERS: INTERNAL://:9093,EXTERNAL://:9092
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:9093, EXTERNAL://67.205.161.104:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+networks:
+  default:
+    external:
+      name: kafkanettet
