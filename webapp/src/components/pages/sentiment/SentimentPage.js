@@ -42,7 +42,7 @@ class SentimentPage extends Component {
         batchId: -1,
         window: null,
         loader: true,
-        messages: data
+        messages: []
       }
     }
   };
@@ -64,9 +64,15 @@ class SentimentPage extends Component {
    */
   handleSentiments = msg => {
     const { batchId } = this.state.topic.sentiments;
+    const { messages } = this.state.topic.sentiments;
     let key = Number(msg.key);
     console.log(this.state);
     let value = JSON.parse(msg.value);
+
+    if (messages.length >= 100) {
+      console.log("Clearing array");
+      this.setState({ messages: [] });
+    }
     if (key > batchId) {
       this.setState(prevState => ({
         ...prevState,
@@ -123,9 +129,12 @@ class SentimentPage extends Component {
                         <TableRow key={index}>
                           <TableCell component="th" scope="row">
                             <Tooltip title={tweet.text}>
-                              <Typography variant="body2">
-                                {sentence["0"]}
-                              </Typography>
+                              <Typography
+                                variant="body2"
+                                dangerouslySetInnerHTML={{
+                                  __html: sentence["0"]
+                                }}
+                              ></Typography>
                             </Tooltip>
                           </TableCell>
                           <TableCell align="right">
