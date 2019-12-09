@@ -158,7 +158,7 @@ class Dashboard extends Component {
                 />
                 <TwitterTimelineEmbed
                   sourceType="profile"
-                  screenName="WaterResearch"
+                  screenName="TxStateUPD"
                   options={{ height: 375 }}
                 />
               </Paper>
