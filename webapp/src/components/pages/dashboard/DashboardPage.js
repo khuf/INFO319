@@ -149,7 +149,6 @@ class Dashboard extends Component {
             <Box width="100%">
               <Paper className={classes.paper}>
                 <Typography variant="h6">
-                  Twitter user handle from HarveyRelif and TSPD
                 </Typography>
                 <TwitterTimelineEmbed
                   sourceType="profile"
