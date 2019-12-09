@@ -149,7 +149,7 @@ class Dashboard extends Component {
             <Box width="100%">
               <Paper className={classes.paper}>
                 <Typography variant="h6">
-                  Tweets fra 2x profiler. En gruppe og en fra 911?
+                  Twitter user handle from HarveyRelif and TSPD
                 </Typography>
                 <TwitterTimelineEmbed
                   sourceType="profile"
