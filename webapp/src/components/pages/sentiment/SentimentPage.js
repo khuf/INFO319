@@ -1,21 +1,16 @@
 import React, { Component } from "react";
 import NavigationDrawer from "../../NavigationDrawer";
-import data from "../../../data/sentiments.json";
-import Paper from "@material-ui/core/Paper";
+//import data from "../../../data/sentiments.json";
 import Box from "@material-ui/core/Box";
 import openSocket from "socket.io-client";
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
-import TableHead from "@material-ui/core/TableHead";
-import TableRow from "@material-ui/core/TableRow";
-import SentimentSatisfiedAltIcon from "@material-ui/icons/SentimentSatisfiedAlt";
-import SentimentVeryDissatisfiedIcon from "@material-ui/icons/SentimentVeryDissatisfied";
-import Tooltip from "@material-ui/core/Tooltip";
+import update from "immutability-helper";
+import SentimentSummary from "./components/SentimentSummary";
+import SentimentBarChart from "./components/SentimentBarChart";
+import SentimentLineChart from "./components/SentimentLineChart";
+import SentimentTable from "./components/SentimentTable";
 
 import { Grid } from "@material-ui/core/";
 import { withStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
 
 const styles = theme => ({
   content: {
@@ -24,8 +19,7 @@ const styles = theme => ({
   },
   paper: {
     padding: theme.spacing(2),
-    textAlign: "left",
-    color: theme.palette.text.secondary
+    textAlign: "left"
   },
   positiveIcon: {
     color: "green"
@@ -35,44 +29,147 @@ const styles = theme => ({
   }
 });
 
+/**
+ * Sentiment analysis page
+ * Displays a table of sentiments and three charts - pie chart, bar chart, and line chart
+ */
 class SentimentPage extends Component {
   state = {
     topic: {
       sentiments: {
         batchId: -1,
         window: null,
+        timestamp: "",
         loader: true,
         messages: []
       }
+    },
+    batches: {},
+    count: 0,
+    summary: {
+      positive: 0,
+      negative: 0,
+      na: 0
     }
   };
+
   constructor(props) {
     super(props);
     this.socket = openSocket("/", { reconnection: false, forceNew: true });
   }
 
+  /**
+   *  Start listenening to sockets for incoming messages
+   */
   componentDidMount() {
     this.socket.on("connect", function(msg) {
       console.log("Connected to webserver");
     });
 
     this.socket.on("sentiments", this.handleSentiments);
+
+    /**
+     * If errors are not handled, application will crash
+     * Running the react application on a mobile phone would sometimes
+     * cause the app to crash.
+     * ToDo: Find out the underlying problem.
+     */
+    this.socket.on("error", err => {
+      console.log(err);
+    });
   }
 
+  /**
+   * Update batch summary used for pie charts
+   */
+  updateBatchSummary = (batchId, timestamp) => {
+    //Retrieve the newly added element
+    const lastMessage = this.state.topic.sentiments.messages.slice(-1).pop();
+
+    // Clear array whenever batch count exceeds 25
+    if (this.state.count >= 25) {
+      this.setState({ count: 0, batches: {} });
+    }
+
+    // Update state
+    if (lastMessage !== undefined && batchId > 0) {
+      //Update existing batch with element
+      this.incrementBatchWithId(
+        batchId,
+        timestamp,
+        lastMessage.combinedResult[0]["1"]
+      );
+
+      //Retrieves sentiment value of last message, i.e. "positive", "negative", or "na"
+      let sentiment = lastMessage.combinedResult[0]["1"];
+
+      //Increment sentiment value (used for piecharts)
+      this.setState(prevState => ({
+        summary: {
+          ...prevState.summary,
+          [sentiment]: prevState.summary[sentiment] + 1
+        }
+      }));
+    }
+  };
+
+  //Increment batch with a specified id, i.e. update its negative, positive, or neutral value
+  incrementBatchWithId(batchId, timestamp, key) {
+    if (this.state.batches.hasOwnProperty(batchId) && batchId >= 0) {
+      this.setState(prevState => ({
+        batches: update(this.state.batches, {
+          [batchId]: { [key]: { $apply: curr => curr + 1 } }
+        })
+      }));
+    } else {
+      let val = {
+        [batchId]: {
+          batchId: batchId,
+          timestamp: timestamp,
+          positive: 0,
+          negative: 0,
+          na: 0
+        }
+      };
+
+      val[batchId][key] = val[batchId][key] + 1;
+
+      this.setState(prevState => ({
+        ...prevState,
+        batches: { ...prevState.batches, ...val }
+      }));
+    }
+  }
   /**
    * Recapture context of "this" so that we can look for state.
    */
   handleSentiments = msg => {
-    const { batchId } = this.state.topic.sentiments;
+    // Retrieve batch and messages from state
+    const { batchId, timestamp } = this.state.topic.sentiments;
     const { messages } = this.state.topic.sentiments;
-    let key = Number(msg.key);
-    console.log(this.state);
-    let value = JSON.parse(msg.value);
 
-    if (messages.length >= 100) {
-      console.log("Clearing array");
-      this.setState({ messages: [] });
+    //Parse key from string to number
+    let key = Number(msg.key);
+
+    //Parse string value as json
+    let value = JSON.parse(msg.value);
+    console.log(this.state);
+
+     //Clear sentiment values (used in table)
+    //setState not called before going out of scope
+    if (messages.length >= 30) {
+      const newState = {
+        ...this.state.topic,
+        sentiments: {
+          ...this.state.topic.sentiments,
+          messages: []
+        }
+      };
+      this.setState({ topic: newState });
     }
+
+
+    //If incoming batch is newer, replace the existing one
     if (key > batchId) {
       this.setState(prevState => ({
         ...prevState,
@@ -81,11 +178,16 @@ class SentimentPage extends Component {
           sentiments: {
             ...prevState.topic.sentiments,
             batchId: key,
+            timestamp: value.timestamp,
             loader: false,
             messages: [value]
           }
         }
       }));
+
+      this.setState({ count: this.state.count + 1 });
+
+      //Incoming message belongs to existing batch --> add it
     } else if (key === batchId) {
       this.setState(prevState => ({
         ...prevState,
@@ -98,67 +200,35 @@ class SentimentPage extends Component {
         }
       }));
     }
+
+    this.updateBatchSummary(batchId, timestamp);
   };
 
+  //Disconnect from websockets upon refresh/unmount from DOM
   componentWillUnmount() {
     this.socket.disconnect();
   }
 
   render() {
-    const { classes } = this.props;
-
     return (
       <NavigationDrawer>
         <Grid container spacing={3}>
+          <Grid container item xs={12} sm={12}>
+            <Box width="100%">
+              <SentimentLineChart data={Object.values(this.state.batches)} />
+            </Box>
+          </Grid>
+          <Grid container item sm={12} xs={12}>
+            <Box width="50%">
+              <SentimentSummary data={this.state.summary} />
+            </Box>
+            <Box width="50%">
+              <SentimentBarChart data={Object.values(this.state.batches)} />
+            </Box>
+          </Grid>
           <Grid container item sm={12} xs={12}>
             <Box width="100%">
-              <Paper className={classes.paper}>
-                <Table className={classes.table} aria-label="simple table">
-                  <TableHead>
-                    <TableRow>
-                      <TableCell>Sentence</TableCell>
-                      <TableCell align="right">Sentiment</TableCell>
-                      <TableCell align="right">Confidence level</TableCell>
-                      <TableCell align="right">Link</TableCell>
-                      <TableCell align="right">Tweet ID</TableCell>
-                    </TableRow>
-                  </TableHead>
-                  <TableBody>
-                    {this.state.topic.sentiments.messages.map((tweet, id) =>
-                      tweet.combinedResult.map((sentence, index) => (
-                        <TableRow key={index}>
-                          <TableCell component="th" scope="row">
-                            <Tooltip title={tweet.text}>
-                              <Typography
-                                variant="body2"
-                                dangerouslySetInnerHTML={{
-                                  __html: sentence["0"]
-                                }}
-                              ></Typography>
-                            </Tooltip>
-                          </TableCell>
-                          <TableCell align="right">
-                            {sentence["1"] === "negative" ? (
-                              <SentimentVeryDissatisfiedIcon
-                                className={classes.negativeIcon}
-                              />
-                            ) : (
-                              <SentimentSatisfiedAltIcon
-                                className={classes.positiveIcon}
-                              />
-                            )}
-                          </TableCell>
-                          <TableCell align="right">
-                            {sentence["2"]["confidence"].toString()}
-                          </TableCell>
-                          <TableCell align="right">Link</TableCell>
-                          <TableCell align="right">{id}</TableCell>
-                        </TableRow>
-                      ))
-                    )}
-                  </TableBody>
-                </Table>
-              </Paper>
+              <SentimentTable data={this.state.topic.sentiments.messages} />
             </Box>
           </Grid>
         </Grid>

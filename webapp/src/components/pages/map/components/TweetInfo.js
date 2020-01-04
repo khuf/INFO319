@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import Link from "@material-ui/core/Link";
+import { Typography } from "@material-ui/core";
 
 export default class TweetInfo extends PureComponent {
   render() {
@@ -10,14 +10,15 @@ export default class TweetInfo extends PureComponent {
 
     return (
       <div>
-        <ul>
-          <li>Tweet: {displayName}</li>
-          <li>
-            URL:
-            <Link variant="body2">{url}</Link>
-          </li>
-          <li>Coordinates: {coordinates}</li>
-        </ul>
+        <Typography variant="body2">
+          <strong>Tweet:</strong> {displayName}
+        </Typography>
+        <Typography variant="body2" align="center">
+          <strong>Link:</strong> {url}
+        </Typography>
+        <Typography variant="body2" align="center">
+          <strong>Coordinates:</strong> {coordinates}
+        </Typography>
       </div>
     );
   }

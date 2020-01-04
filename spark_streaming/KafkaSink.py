@@ -3,7 +3,8 @@ import json
 from pyspark.sql.streaming import DataStreamWriter
 from kafka import KafkaProducer
 
-
+# Used to gain access to the batch id (version)
+# Must implement open(), process(), and close()
 class KafkaSink(DataStreamWriter):
     def __init__(self, config):
         self.config = config

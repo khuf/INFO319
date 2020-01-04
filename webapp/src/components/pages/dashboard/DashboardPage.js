@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import NavigationDrawer from "../../../components/NavigationDrawer";
 import Paper from "@material-ui/core/Paper";
 import Box from "@material-ui/core/Box";
@@ -19,12 +19,11 @@ const styles = theme => ({
   },
   paper: {
     padding: theme.spacing(2),
-    textAlign: "left",
-    color: theme.palette.text.secondary
+    textAlign: "left"
   }
 });
 
-class Dashboard extends Component {
+class Dashboard extends PureComponent {
   state = {
     topic: {
       bigrams: {
@@ -41,6 +40,9 @@ class Dashboard extends Component {
     this.socket = openSocket("/", { reconnection: false, forceNew: true });
   }
 
+  /**
+   *  Start listenening to sockets for incoming messages
+   */
   componentDidMount() {
     this.socket.on("connect", function(msg) {
       console.log("Connected to webserver");
@@ -48,6 +50,7 @@ class Dashboard extends Component {
 
     this.socket.on("bigrams", this.handleBigrams);
   }
+
   /**
    * Recapture context of "this" so that we can look for state.
    * A threshold minimum threshold of 2 is set for bigrams to
@@ -56,7 +59,8 @@ class Dashboard extends Component {
   handleBigrams = msg => {
     let key = Number(msg.key);
     let value = JSON.parse(msg.value);
-    console.log(msg);
+
+    //If incoming messages comes from a newer batch, replace messages
     if (key > this.state.topic.bigrams.batchId && value.value > 2) {
       this.setState(prevState => ({
         ...prevState,
@@ -71,6 +75,7 @@ class Dashboard extends Component {
           }
         }
       }));
+      //If incoming messages belongs to existing batch --> add it
     } else if (key === this.state.topic.bigrams.batchId && value.value > 2) {
       this.setState(prevState => ({
         ...prevState,
@@ -85,6 +90,7 @@ class Dashboard extends Component {
     }
   };
 
+  //Disconnect from sockets when dismounting DOM
   componentWillUnmount() {
     this.socket.disconnect();
   }
@@ -99,7 +105,7 @@ class Dashboard extends Component {
           <Grid container item sm={12} xs={12}>
             <Box width="100%">
               <Paper className={(classes.paper, theme.paper)}>
-                <Typography variant="subtitle2">
+                <Typography variant="h6">
                   {"Showing bigrams with threshold " + threshold}
                 </Typography>
                 <InputLabel id="label">Threshold</InputLabel>
@@ -133,23 +139,27 @@ class Dashboard extends Component {
                 {window && (
                   <Typography variant="body1">
                     {"Window:\n" + window && (
-                      <Moment
-                        duration={window.start}
-                        date={window.end}
-                      ></Moment>
+                      <>
+                        <Moment format="YYYY/MM/DD HH:mm">
+                          {window.start}
+                        </Moment>
+                        {" - "}
+                        <Moment format="YYYY/MM/DD HH:mm">{window.end}</Moment>
+                      </>
                     )}
                   </Typography>
                 )}
 
-                <WordCloud data={messages} />
+                <WordCloud
+                  batchId={this.state.topic.bigrams.batchId}
+                  data={messages}
+                />
               </Paper>
             </Box>
           </Grid>
           <Grid container item sm={12} xs={12}>
             <Box width="100%">
               <Paper className={classes.paper}>
-                <Typography variant="h6">
-                </Typography>
                 <TwitterTimelineEmbed
                   sourceType="profile"
                   screenName="HarveyRelief"
