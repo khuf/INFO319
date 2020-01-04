@@ -1,0 +1,53 @@
+### Java, Scala, SBT
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+spark_streaming/data
+spark_streaming/checkpoint
+spark_streaming/share
+spark_streaming/bin
+spark_streaming/warehouse
+spark_streaming/local
+spark_streaming/lib
+spark_streaming/incude
+spark_streaming/_spark_metadata
+.part*
+*.crc
+
+#Log files
+*.log
+
+#Python (cahce, compiled files, etc)
+__pycache__/
+*.py[cod]
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+#Node
+node_modules/
+
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+[Ss]hare
+pyvenv.cfg
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-selfcheck.json
