@@ -1,0 +1,25 @@
+{
+  "name": "sockets-io-server",
+  "version": "1.0.0",
+  "description": "Consumes messages from Kafka and forwards them to clients using Sockets-IO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sockets-io",
+    "kafka",
+    "consumer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "kafkajs": "^1.11.0",
+    "node-cache": "^5.0.1",
+    "socket.io": "^2.3.0",
+    "socket.io-json-parser": "^2.1.0"
+  }
+}
